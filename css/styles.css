@@ -23,7 +23,13 @@ ul {
   list-style: none;
 }
 .page-header {
+  width: 1200px;
+
 }
+
+.container {
+}
+
 .nav {
 }
 .logo {
@@ -39,6 +45,7 @@ ul {
   color: var(--accent-color);
 }
 .top-line {
+
 }
 .top-line-item {
 }
@@ -61,6 +68,7 @@ ul {
   color: var(--accent-color);
 }
 .contacts {
+
 }
 .contacts-item {
 }
@@ -92,6 +100,10 @@ ul {
   color: var(--button-text-color);
 }
 .button {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -110,6 +122,7 @@ ul {
 .main-item {
 }
 .main-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -137,7 +150,9 @@ ul {
 .items-item {
 }
 .image-items {
+  display: block;
 }
+
 .section-team {
   background-color: var(--sectionbg-background);
 }
@@ -156,6 +171,8 @@ ul {
 .team-image {
 }
 .team-name {
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -226,6 +243,7 @@ ul {
   background-color: var(--sectionbg-background);
   border-radius: 4px;
   cursor: pointer;
+  border: solid transparent;
 }
 
 .button-filter:hover,
