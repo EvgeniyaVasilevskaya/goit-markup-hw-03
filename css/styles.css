@@ -59,7 +59,6 @@ p {
 }
 
 .logo {
- 
   padding-top: 24px;
   padding-bottom: 25px;
   margin-left: 15px;
@@ -355,15 +354,26 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  width: 100%;
 }
 
 .project-item {
+  box-sizing: border-box;
+    width: 370px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #eeeeee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+  
 }
 
 .project-image {
+  margin: 0;
 }
 
 .project-title {
@@ -388,6 +398,8 @@ p {
 .container-project-text {
   padding: 20px 24px;
   border: 1px solid var(--color8);
+  border-right-width: 1px;
+  border-left-width: 1px;
 }
 
 .container-team {
