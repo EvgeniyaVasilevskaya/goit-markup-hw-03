@@ -162,7 +162,7 @@ p {
   cursor: pointer;
 }
 .section-main {
-  padding: 94px 0;
+  /*padding: 94px 0;*/
 }
 .visually-hidden {
   position: absolute;
@@ -204,7 +204,7 @@ p {
   color: var(--primary-text-color);
 }
 .section-items {
-  padding: 94px 0;
+  /*padding: 94px 0;*/
 }
 .title-items {
   margin-bottom: 50px;
@@ -227,7 +227,7 @@ p {
 }
 
 .section-team {
-  padding: 94px 0;
+ /* padding: 94px 0;*/
   background-color: var(--sectionbg-background);
 }
 .team-title {
