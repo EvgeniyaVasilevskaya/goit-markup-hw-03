@@ -51,6 +51,9 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+.section {
+  padding: 94px 0;
+}
 .nav {
   display: flex;
 }
@@ -91,16 +94,12 @@ p {
   text-decoration: none;
 }
 
-.top-line-link:hover {
-  color: var(--accent-color);
-}
-
-.top-line-link:focus {
-  color: var(--accent-color);
-}
+.top-line-link:hover,
+.top-line-link:focus,
 .current {
   color: var(--accent-color);
 }
+
 .contacts {
   display: flex;
   margin-left: auto;
@@ -108,8 +107,10 @@ p {
   padding-bottom: 32px;
   gap: 50px;
 }
+
 .contacts-item {
 }
+
 .contacts-item-link {
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -118,11 +119,7 @@ p {
   text-decoration: none;
 }
 
-
-.contacts-item-link:hover {
-  color: var(--accent-color);
-}
-
+.contacts-item-link:hover,
 .contacts-item-link:focus {
   color: var(--accent-color);
 }
@@ -133,6 +130,7 @@ p {
   background: var(--footer-background);
   text-align: center;
 }
+
 .cap-title {
   width: 696px;
   margin: 0 auto 30px;
@@ -144,6 +142,7 @@ p {
   text-transform: uppercase;
   color: var(--button-text-color);
 }
+
 .button {
   margin-left: auto;
   margin-right: auto;
@@ -161,29 +160,18 @@ p {
   background-color: var(--accent-color);
   cursor: pointer;
 }
-.section-main {
-  /*padding: 94px 0;*/
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+.section-main {
 }
 
 .main-list {
   display: flex;
 }
+
 .main-item {
   width: 270px;
 }
+
 .main-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -198,14 +186,16 @@ p {
   text-transform: uppercase;
   color: var(--title-text-color);
 }
+
 .main-text {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 .section-items {
-  /*padding: 94px 0;*/
 }
+
 .title-items {
   margin-bottom: 50px;
   font-weight: 700;
@@ -215,21 +205,24 @@ p {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .items-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .items-item {
 }
+
 .image-items {
   display: block;
 }
 
 .section-team {
- /* padding: 94px 0;*/
   background-color: var(--sectionbg-background);
 }
+
 .team-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -240,15 +233,19 @@ p {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
+
 .team-item {
 }
+
 .team-image {
 }
+
 .team-name {
   margin-top: 0;
   margin-bottom: 10px;
@@ -259,6 +256,7 @@ p {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+
 .team-text {
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -266,11 +264,13 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+
 .footer {
   background: var(--footer-background);
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .logo-footer {
   margin-bottom: 60px;
   font-family: 'Raleway', sans-serif;
@@ -280,17 +280,21 @@ p {
   color: var(--button-text-color);
   text-decoration: none;
 }
+
 .address {
 }
+
 .list-address {
   margin-top: 20px;
 }
+
 .item-address {
 }
 
 .item-address:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .link-address {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -319,12 +323,14 @@ p {
 .link-address-tel:focus {
   color: var(--accent-color);
 }
+
 .filter {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 34px;
 }
+
 .button-filter {
   padding: 6px 22px;
   font-weight: 500;
@@ -352,11 +358,12 @@ p {
 }
 
 .project-item {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #EEEEEE;
 }
+
 .project-image {
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .project-title {
@@ -377,6 +384,7 @@ p {
 .address {
   font-style: normal;
 }
+
 .container-project-text {
   padding: 20px 24px;
   border: 1px solid var(--color8);
@@ -386,6 +394,17 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.section {
-  padding: 94px 0;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
